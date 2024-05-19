@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="/css/estilos.css">
+	<title>Formulario</title>
+</head>
+
+<body class="body-form">
+	<header id="header">
+		<h1> CSS Stilos </h1>
+	</header>
+	<main class="main-form">
+		<form action="" class="form">
+			<h2 class="h2"> Formulario de clientes </h2>
+			
+			<label for="dni"> Ingresar DNI de cliente</label>
+			<input type="number" id="dni" name="dni" required>
+			
+			<label for="name"> Ingresar el nombre completo</label>
+			<input type="text" id="name" name="name" required>
+			
+			<label for="lastname"> Ingresar el apellido</label>
+			<input type="text" id="lastname" name="lastname" required>
+			
+			<label for="email"> Ingresar correo electrónico</label>
+			<input type="email" id="email" name="email" required>
+			
+			<label for="password"> Ingresar la contraseña</label>
+			<input type="password" id="password" name="password" required>
+			
+			<label for="birthday"> Ingresar la fecha de nacimiento</label>
+			<input type="date" id="birthday" name="birthday" required>
+			
+			<label for="genre"> Ingresar género</label>
+			Femenino <input type="radio" value="femenino" id="genre">
+			Masculino <input type="radio" value="masculino" id="genre"> 
+			Otro <input type="radio" value="otro" id="genre"> 
+			
+			<label for="address"> Ingresar el domicilio</label>
+			<input type="text" id="address" name="address" required>
+			
+			<label for="city"> Ingresar Provincia natal</label>
+			<select id="city" selected required>
+				<option value="Jujuy"> Jujuy </option>
+				<option value="Salta"> Salta </option>
+				<option value="Tucumán"> Tucumán </option>
+				<option value="Catamarca"> Catamarca </option>
+			</select>
+			
+			<label for="numberPhone"> Ingresar número telefónico</label>
+			<input type="number" id="numberPhone" name="numbePhone">
+			
+			<label for="category"> Seleccione las categorías de su interés</label>
+			Fútbol <input type="checkbox" value="futbol" id="futbol"/> 
+			Cine <input type="checkbox" value="cine" id="category"/> 
+			Música <input type="checkbox" value="musica" id="category"/> 
+			Atletismo <input type="checkbox" value="atletismo" id="category"/> 
+			Pintura <input type="checkbox" value="pintura" id="category"/>
+			
+			<label for="suggestion">Sugerencias</label>
+			<input type="textarea" id="suggestion" name="suggestion"> 
+			
+			<label> Acepto los términos y condiciones </label> <input type="checkbox" required>
+			<label> Acepto recibir información relativa a la empresa </label> <input type="checkbox"> 
+		</form>
+	</main>
+</body>
+</html>
